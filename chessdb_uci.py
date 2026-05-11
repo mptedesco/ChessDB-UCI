@@ -7,15 +7,10 @@ backed by ChessDB's distributed min-max tree.
 Why this exists
 ---------------
 For correspondence/ICCF preparation, ChessDB is often the most authoritative
-single source: it represents a curated, distributed analysis tree maintained
-across many contributors. But the workflow of "paste FEN into a browser, copy
-moves out, paste into your GUI" loses the integration with PGN trees, opening
-books, multi-engine comparison panes, and analysis logging that any UCI GUI
-provides for free.
+single source: it represents a curated, distributed analysis tree.
 
-This engine bridges that gap. Point any UCI-compliant GUI (Arena, Cute Chess,
-ChessBase, BanksiaGUI, Scid vs PC, lichess-bot, etc.) at this script and
-ChessDB shows up as just another engine slot.
+This engine bridges that gap. Point any UCI-compliant GUI (e.g., ChessBase, Scid vs PC) 
+at this script and ChessDB shows up as just another engine slot.
 
 Behavior
 --------
